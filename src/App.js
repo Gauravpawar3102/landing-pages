@@ -1,11 +1,7 @@
-import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
-  return (
-    <div className="mx-auto mt-8 ">
-      <h1 className="text-6xl text-center">hello world </h1>
-    </div>
-  );
+  return <Navbar className="h-screen" />;
 }
 
 export default App;
